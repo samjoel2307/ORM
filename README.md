@@ -28,8 +28,6 @@ models.py
 
 from django.db import models
 from django.contrib import admin
-
-
 class car_DB(models.Model):
 	customer_name=models.CharField(max_length=15)
 	car_model_no=models.IntegerField()
